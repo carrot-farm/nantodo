@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write",
-    "prepare": "cd ../../ && husky install packages/.husky"
+    "prepare": "cd ../../ && husky install packages/next-todo/.husky"
   },
   "dependencies": {
     "next": "12.1.6",
