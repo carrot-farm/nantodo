@@ -1,10 +1,5 @@
 {
-  "extends": [
-    "../../.eslintrc.json",
-    "next",
-    "next/core-web-vitals",
-    "eslint:recommended"
-  ],
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
   "globals": {
     "React": "readonly"
   }
