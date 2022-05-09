@@ -1608,6 +1608,8 @@ __metadata:
 "nantodo@workspace:.":
   version: 0.0.0-use.local
   resolution: "nantodo@workspace:."
+  dependencies:
+    husky: ^8.0.1
   languageName: unknown
   linkType: soft
 

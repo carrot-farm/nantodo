@@ -6,9 +6,12 @@
   "packageManager": "yarn@3.2.0",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/next-todo"
   ],
-  "nohoist": [
-    "husky"
-  ]
+  "scripts": {
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
 }
