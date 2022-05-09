@@ -1,9 +1,9 @@
 {
   "extends": [
+    "../../.eslintrc.json",
     "next",
     "next/core-web-vitals",
-    "eslint:recommended",
-    "plugin:prettier/recommended"
+    "eslint:recommended"
   ],
   "globals": {
     "React": "readonly"
