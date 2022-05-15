@@ -10,8 +10,8 @@ import { GoogleLogo } from "../../atoms/Icon";
 
 export interface AuthFormViewProps {
   type: "signup" | "signin";
-  onGoogleClick: () => void;
-  onEmailSubmit: FormProps["onSubmit"];
+  onGoogleClick?: () => void;
+  onEmailSubmit?: FormProps["onSubmit"];
 }
 
 function AuthFormView({
@@ -51,7 +51,7 @@ function AuthFormView({
           <Input placeholder="이메일을 입력해 주십시요" />
         </FormItem>
         <FormItem name="password" label="비밀번호" className="text-gray-400">
-          <Input type="password" placeholder="비밀번호을 입력해 주십시요" />
+          <Input placeholder="비밀번호을 입력해 주십시요" />
         </FormItem>
         {type === "signup" && (
           <FormItem
@@ -59,10 +59,7 @@ function AuthFormView({
             label="비밀번호 확인"
             className="text-gray-400"
           >
-            <Input
-              type="password"
-              placeholder="비밀번호를 한번더 입력해 주십시요"
-            />
+            <Input placeholder="비밀번호를 한번더 입력해 주십시요" />
           </FormItem>
         )}
 

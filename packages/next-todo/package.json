@@ -13,7 +13,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "tw:watch": "TAILWIND_MODE=watch NODE_ENV=development postcss ./styles/tailwind.css -o ./styles/tailwind_out.css -w",
-    "tw:build": "NODE_ENV=production postcss ./styles/tailwind.css -o ./styles/tailwind_out.css/"
+    "tw:build": "NODE_ENV=production postcss ./styles/tailwind.css -o ./styles/tailwind_out.css/",
+    "ts:check": "tsc --project ./tsconfig.json"
   },
   "dependencies": {
     "@carrot-farm/mongsil-ui": "^0.2.28",
