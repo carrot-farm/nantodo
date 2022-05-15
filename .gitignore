@@ -29,6 +29,6 @@ package-lock.json
 .idea
 
 
-.yarn
+.yarn/cache
 
 node_modules
